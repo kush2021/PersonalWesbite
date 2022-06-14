@@ -6,6 +6,11 @@
         <title>Kush's Personal Website</title>
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVk/Kvc=" crossorigin = "anonymous">
+        <script src="https://kit.fontawesome.com/efd88bd628.js" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -37,7 +42,7 @@
             <p class = "section__subtitle section__subtitle--intro">
                 software engineer
             </p>
-            <img src = "img/kush.JPG" alt = "a picture of Kush" width = "auto" height = "200px">
+            <img src = "img/kush.JPG" alt = "a picture of Kush" class = "intro__img">
         </section>
         <!-- My Services -->
         <section class = "my-services" id = "services">
@@ -84,10 +89,12 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum autem distinctio animi est eius velit voluptatibus, necessitatibus aut minus amet, ipsam id debitis libero consectetur esse repudiandae beatae, doloremque facere?
                 </p>
             </div>
+            <img src = "img/kush.JPG" alt = "" class = "about-me__img">
         </section>
         <!-- My Work -->
         <section class = "my-work" id = "work">
-            <h2 class = "section__title">My Work</h2>
+            <h2 class = "section__title section__title--work">My Work</h2>
+            <p class = "section__subtitle section__subtitle--work">A selection of my range of work</p>
             <p class = "section__subtitle">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatibus laborum vel maxime at enim similique praesentium sunt, sapiente perferendis sequi voluptatum excepturi atque temporibus minima voluptas beatae iusto! Temporibus.
             </p>
@@ -98,19 +105,20 @@
             </div>
         </section>
         <!-- Footer -->
-        <footer>
+        <footer class = "footer">
             <ul class = "social-list">
                 <li class = "social-list__item">
                     <a class = "social-list__link" href = "mailto:kushpadalia2002@gmail.com">
-                        a
+                        <i class="fa-solid fa-envelope"></i>
                     </a>
                 </li>
                 <li class = "social-list__item">
                     <a class = "social-list__link" href = "https://github.com/kush2021">
-                        b
+                        <i class="fa-brands fa-github"></i>
                     </a>
                 </li>
             </ul>
         </footer>
+        <script src = "js/index.js"></script>
     </body>
 </html>
